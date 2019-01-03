@@ -32,6 +32,6 @@
 	<!-- 切面 -->
 	<aop:config proxy-target-class="true">
 		<aop:advisor advice-ref="txAdvice"
-			pointcut="execution(* com.afterSalesService.sso.service.*.*(..))" />
+			pointcut="execution(* com.deerDreamBlog.sso.service.*.*(..))" />
 	</aop:config>
 </beans>

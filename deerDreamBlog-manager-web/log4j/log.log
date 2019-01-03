@@ -1,5 +1,5 @@
-FrameworkServlet 'afterSalesService-manager-web': initialization started
-Refreshing WebApplicationContext for namespace 'afterSalesService-manager-web-servlet': startup date [Thu Feb 08 17:57:26 GMT+08:00 2018]; root of context hierarchy
+FrameworkServlet 'deerDreamBlog-manager-web': initialization started
+Refreshing WebApplicationContext for namespace 'deerDreamBlog-manager-web-servlet': startup date [Thu Feb 08 17:57:26 GMT+08:00 2018]; root of context hierarchy
 Loading XML bean definitions from class path resource [spring/springmvc.xml]
 Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
 Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
@@ -7,20 +7,20 @@ Overriding bean definition for bean 'mvcUriComponentsContributor' with a differe
 using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
 Loading properties file from class path resource [resource/resource.properties]
 JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Mapped "{[/content/category/list]}" onto public java.util.List<com.afterSalesService.common.pojo.EasyUITreeNode> com.afterSalesService.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
-Mapped "{[/content/category/create]}" onto public com.afterSalesService.common.pojo.afterSalesServiceResult com.afterSalesService.controller.ContentCategoryController.addContentCategory(java.lang.Long,java.lang.String)
-Mapped "{[/content/save]}" onto public com.afterSalesService.common.pojo.afterSalesServiceResult com.afterSalesService.controller.ContentController.addContent(com.afterSalesService.pojo.TbContent)
-Mapped "{[/item/cat/list]}" onto public java.util.List<com.afterSalesService.common.pojo.EasyUITreeNode> com.afterSalesService.controller.ItemCatController.getItemCatList(java.lang.Long)
-Mapped "{[/item/save],methods=[POST]}" onto public com.afterSalesService.common.pojo.afterSalesServiceResult com.afterSalesService.controller.ItemController.addItem(com.afterSalesService.pojo.TbItem,java.lang.String)
-Mapped "{[/item/list]}" onto public com.afterSalesService.common.pojo.EasyUIDataGridResult com.afterSalesService.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
-Mapped "{[/item/{itemId}]}" onto public com.afterSalesService.pojo.TbItem com.afterSalesService.controller.ItemController.getItemById(java.lang.Long)
-Mapped "{[/{page}]}" onto public java.lang.String com.afterSalesService.controller.PageController.showPage(java.lang.String)
-Mapped "{[/]}" onto public java.lang.String com.afterSalesService.controller.PageController.showIndex()
-Mapped "{[/pic/upload]}" onto public java.lang.String com.afterSalesService.controller.PictureController.picUpload(org.springframework.web.multipart.MultipartFile)
+Mapped "{[/content/category/list]}" onto public java.util.List<com.deerDreamBlog.common.pojo.EasyUITreeNode> com.deerDreamBlog.controller.ContentCategoryController.getContentCategoryList(java.lang.Long)
+Mapped "{[/content/category/create]}" onto public com.deerDreamBlog.common.pojo.deerDreamBlogResult com.deerDreamBlog.controller.ContentCategoryController.addContentCategory(java.lang.Long,java.lang.String)
+Mapped "{[/content/save]}" onto public com.deerDreamBlog.common.pojo.deerDreamBlogResult com.deerDreamBlog.controller.ContentController.addContent(com.deerDreamBlog.pojo.TbContent)
+Mapped "{[/item/cat/list]}" onto public java.util.List<com.deerDreamBlog.common.pojo.EasyUITreeNode> com.deerDreamBlog.controller.ItemCatController.getItemCatList(java.lang.Long)
+Mapped "{[/item/save],methods=[POST]}" onto public com.deerDreamBlog.common.pojo.deerDreamBlogResult com.deerDreamBlog.controller.ItemController.addItem(com.deerDreamBlog.pojo.TbItem,java.lang.String)
+Mapped "{[/item/list]}" onto public com.deerDreamBlog.common.pojo.EasyUIDataGridResult com.deerDreamBlog.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)
+Mapped "{[/item/{itemId}]}" onto public com.deerDreamBlog.pojo.TbItem com.deerDreamBlog.controller.ItemController.getItemById(java.lang.Long)
+Mapped "{[/{page}]}" onto public java.lang.String com.deerDreamBlog.controller.PageController.showPage(java.lang.String)
+Mapped "{[/]}" onto public java.lang.String com.deerDreamBlog.controller.PageController.showIndex()
+Mapped "{[/pic/upload]}" onto public java.lang.String com.deerDreamBlog.controller.PictureController.picUpload(org.springframework.web.multipart.MultipartFile)
 Mapped "{[/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.mangofactory.swagger.models.dto.ResourceListing> com.mangofactory.swagger.controllers.DefaultSwaggerController.getResourceListing(java.lang.String)
 Mapped "{[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.mangofactory.swagger.models.dto.ApiListing> com.mangofactory.swagger.controllers.DefaultSwaggerController.getApiListing(java.lang.String,java.lang.String)
-Looking for @ControllerAdvice: WebApplicationContext for namespace 'afterSalesService-manager-web-servlet': startup date [Thu Feb 08 17:57:26 GMT+08:00 2018]; root of context hierarchy
-Looking for @ControllerAdvice: WebApplicationContext for namespace 'afterSalesService-manager-web-servlet': startup date [Thu Feb 08 17:57:26 GMT+08:00 2018]; root of context hierarchy
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'deerDreamBlog-manager-web-servlet': startup date [Thu Feb 08 17:57:26 GMT+08:00 2018]; root of context hierarchy
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'deerDreamBlog-manager-web-servlet': startup date [Thu Feb 08 17:57:26 GMT+08:00 2018]; root of context hierarchy
 Mapped URL path [/swagger/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
 Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
 Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
@@ -73,4 +73,4 @@ Added a resource listing with (6) api resources:
   Item Controller at location: /api-docs/default/item-controller
   Page Controller at location: /api-docs/default/page-controller
   Picture Controller at location: /api-docs/default/picture-controller
-FrameworkServlet 'afterSalesService-manager-web': initialization completed in 2271 ms
+FrameworkServlet 'deerDreamBlog-manager-web': initialization completed in 2271 ms

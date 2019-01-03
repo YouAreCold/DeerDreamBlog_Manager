@@ -3,6 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DeerDreamBlog_Manager.iml" filepath="$PROJECT_DIR$/DeerDreamBlog_Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-common/deerDreamBlog-common.iml" filepath="$PROJECT_DIR$/deerDreamBlog-common/deerDreamBlog-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager.iml" filepath="$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-dao/deerDreamBlog-manager-dao.iml" filepath="$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-dao/deerDreamBlog-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-interface/deerDreamBlog-manager-interface.iml" filepath="$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-interface/deerDreamBlog-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-pojo/deerDreamBlog-manager-pojo.iml" filepath="$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-pojo/deerDreamBlog-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-service/deerDreamBlog-manager-service.iml" filepath="$PROJECT_DIR$/deerDreamBlog-manager/deerDreamBlog-manager-service/deerDreamBlog-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-manager-web/deerDreamBlog-manager-web.iml" filepath="$PROJECT_DIR$/deerDreamBlog-manager-web/deerDreamBlog-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-parent/deerDreamBlog-parent.iml" filepath="$PROJECT_DIR$/deerDreamBlog-parent/deerDreamBlog-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-sso/deerDreamBlog-sso.iml" filepath="$PROJECT_DIR$/deerDreamBlog-sso/deerDreamBlog-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-sso/deerDreamBlog-sso-interface/deerDreamBlog-sso-interface.iml" filepath="$PROJECT_DIR$/deerDreamBlog-sso/deerDreamBlog-sso-interface/deerDreamBlog-sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-sso/deerDreamBlog-sso-service/deerDreamBlog-sso-service.iml" filepath="$PROJECT_DIR$/deerDreamBlog-sso/deerDreamBlog-sso-service/deerDreamBlog-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deerDreamBlog-sso-web/deerDreamBlog-sso-web.iml" filepath="$PROJECT_DIR$/deerDreamBlog-sso-web/deerDreamBlog-sso-web.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="deerDreamBlog-sso-service:war">
+    <output-path>$PROJECT_DIR$/deerDreamBlog-sso/deerDreamBlog-sso-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>deerDreamBlog-sso-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="deerDreamBlog-sso-service.war">
+      <element id="artifact" artifact-name="deerDreamBlog-sso-service:war exploded" />
+    </root>
+  </artifact>
+</component>

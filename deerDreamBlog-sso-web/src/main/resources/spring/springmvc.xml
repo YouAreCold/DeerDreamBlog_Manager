@@ -25,21 +25,21 @@
 	<!-- 将 springSwaggerConfig加载到spring容器 -->  
 	<bean class="com.mangofactory.swagger.configuration.SpringSwaggerConfig" />  
 	<!-- 将自定义的swagger配置类加载到spring容器 -->  
-	<bean class="com.afterSalesService.common.config.SwaggerConfig" /> 
+	<bean class="com.deerDreamBlog.common.config.SwaggerConfig" />
 	<!-- 静态资源文件，不会被Spring MVC拦截 -->  
 	<mvc:resources mapping="/swagger/**" location="/swagger/" /> 
-	<mvc:resources mapping="/afterSalesService/**" location="/afterSalesService/" /> 
+	<mvc:resources mapping="/deerDreamBlog/**" location="/deerDreamBlog/" />
 	<!-- 配置资源映射 -->
 	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
 	<mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
 	<mvc:resources location="/WEB-INF/images/" mapping="/images/**"/>
 	
 	<!-- 引用dubbo服务  必须放在扫描controller之前引用 -->
-	<dubbo:application name="afterSalesService-sso-web"/>
-	<dubbo:annotation package="com.afterSalesService.sso.controller" /> 
-	<dubbo:annotation package="com.afterSalesService.common.base.controller" /> 
+	<dubbo:application name="deerDreamBlog-sso-web"/>
+	<dubbo:annotation package="com.deerDreamBlog.sso.controller" />
+	<dubbo:annotation package="com.deerDreamBlog.common.base.controller" />
 	<dubbo:registry protocol="zookeeper" address="192.168.0.160:2181"/>	
 	
 	<!-- 配置包扫描器，扫描@Controller注解的类 -->
-	<context:component-scan base-package="com.afterSalesService.sso.controller"/>
+	<context:component-scan base-package="com.deerDreamBlog.sso.controller"/>
 </beans>      

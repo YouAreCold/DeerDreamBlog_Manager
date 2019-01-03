@@ -38,7 +38,7 @@
 		<property name="filters" value="mergeStat" />
 	</bean> -->
 	<!-- 配置多个数据库 连接池    博客数据库-->
-	<!-- <bean id="dataSource_afterSalesService" class="com.alibaba.druid.pool.DruidDataSource"
+	<!-- <bean id="dataSource_deerDreamBlog" class="com.alibaba.druid.pool.DruidDataSource"
 		 init-method="init" destroy-method="close">
 		<property name="url" value="${jdbc1.url}" />
 		<property name="username" value="${jdbc1.username}" />
@@ -60,8 +60,8 @@
 	</bean> -->
 	
 	<!--主从库选择 -->
-	<!-- <bean id="dynamicDataSource" class="com.afterSalesService.common.multiplesources.DynamicDataSource">
-		<property name="dataSource_afterSalesService" ref="dataSource_afterSalesService" />
+	<!-- <bean id="dynamicDataSource" class="com.deerDreamBlog.common.multiplesources.DynamicDataSource">
+		<property name="dataSource_deerDreamBlog" ref="dataSource_deerDreamBlog" />
 		<property name="dataSource_myuser">
 			<list>
 				<ref bean="dataSource_myuser" />
@@ -77,8 +77,8 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />
 		<!-- 自动扫描mapping.xml文件 -->
-		<property name="typeAliasesPackage" value="com.afterSalesService.pojo*" />
-		<property name="mapperLocations" value="classpath:com/afterSalesService/mapper/xml/*.xml" /> 
+		<property name="typeAliasesPackage" value="com.deerDreamBlog.pojo*" />
+		<property name="mapperLocations" value="classpath:com/deerDreamBlog/mapper/xml/*.xml" />
 		<property name="globalConfig">
 			<bean class="com.baomidou.mybatisplus.entity.GlobalConfiguration">
 				<property name="dbColumnUnderline" value="true" />
@@ -89,7 +89,7 @@
 		</property>
 	</bean>
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.afterSalesService.mapper" />
+		<property name="basePackage" value="com.deerDreamBlog.mapper" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 	</bean>
 </beans>
